@@ -21,6 +21,7 @@
 [class="website menu"]{
     color: teal;
     list-style-type: none;
+    display: block;
   
 }
 #forth{
@@ -34,7 +35,8 @@
 }
 @media screen and (max-width:600 px) {
     .website manu{
-        display: block;
+       flex-direction: row
+        
     }  
 } 
 </style>
@@ -45,7 +47,7 @@
             <h1>My Awesome Website</h1>
             <p >Tagline</p>
         </header>
-        
+        </div>
             <aside>
                 <nav>
                     <ul class="website menu">
@@ -59,13 +61,15 @@
                     </ul>
                 </nav>
             </aside>
+            <div>
             <main>
                 <h2>About</h2>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate dolore, labore sed a architecto dolor reprehenderit nemo iure accusantium quisquam magnam quasi, eligendi illum? Libero minima reiciendis suscipit recusandae earum.</p>
             </main>
         </div>
+        <div>
         <footer id="third">
-            <p >&copy; Your_name_here 2024. All rights reserved.</p>
+            <p >&copy; Yegane 2024. All rights reserved.</p>
         </footer>
     </div>
 </body>
