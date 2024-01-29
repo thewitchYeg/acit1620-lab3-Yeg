@@ -20,7 +20,7 @@
 }
 [class="website menu"]{
     list-style-type: none;
-    display: flex;
+    
 
     
 }
@@ -33,7 +33,11 @@
 #sixth{
     color: teal;
 }
-
+@media screen and (max-width:600 px) {
+    .website manu{
+        display: block;
+    }  
+} 
     
 </style>
 </head>
@@ -44,7 +48,7 @@
             <h1>My Awesome Website</h1>
             <p>Tagline</p>
         </header>
-        <div>
+        
             <aside>
                 <nav>
                     <ul class="website menu">
